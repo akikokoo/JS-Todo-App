@@ -1,0 +1,50 @@
+form{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    gap: 5px;
+}
+#todo-input{
+    width: 35rem;
+    height: 1.5rem;
+    border-radius: 10px;
+    border-color: black;    
+}
+#todo-button{
+    height: 1.5rem;
+    width: 2.5rem;
+    border-radius: 5px;
+}
+.todo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todo-list{
+    list-style: none;
+    
+}
+
+.todo{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    justify-content: space-between;
+    gap: 20px;
+}
+.todo-buttons{
+    background-color: red;
+    display: flex;
+    gap: 0px;
+}
+.delete-button{
+    width: 30px;
+    height: 20px;
+    background-color: red;
+}
+
+.complete-button{
+    background-color: rgb(27, 205, 27);
+    width: 30px;
+    height: 20px;
+}
